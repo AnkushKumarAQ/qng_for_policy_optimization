@@ -1,0 +1,8 @@
+=== ANALYSIS REPORT ===
+
+1. HYPERPARAMETER TUNING
+Best Learning Rate Selected: 0.005
+
+2. FINAL TRAINING RESULTS
+Overall Success Rate: 70.0% (14/20 seeds)
+Mean Steps to Solve (for successful seeds): 19727.5

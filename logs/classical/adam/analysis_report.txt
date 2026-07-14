@@ -1,0 +1,8 @@
+=== ADAM BASELINE ANALYSIS REPORT ===
+
+1. HYPERPARAMETER TUNING
+Best Learning Rate Selected: 0.01
+
+2. FINAL TRAINING RESULTS
+Overall Success Rate: 95.0% (19/20 seeds)
+Mean Steps to Solve (for successful seeds): 19747.2
