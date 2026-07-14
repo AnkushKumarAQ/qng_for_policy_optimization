@@ -20,6 +20,7 @@ python train_classical.py --opt adam
 
 # Train classical model with FIM
 python train_classical.py --opt fim
+
 ```
 
 *Note: Logs (.csv, .txt, .png) and policies (.pth) are automatically saved to dynamically generated `logs/` and `policies/` folders.*
