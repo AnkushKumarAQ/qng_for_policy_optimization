@@ -22,4 +22,4 @@ python train_classical.py --opt adam
 python train_classical.py --opt fim
 ```
 
-*Note: Logs (.csv, .txt, .png) and trained policies (.pth) are automatically saved to dynamically generated `logs/` and `trained_policies/` folders.*
+*Note: Logs (.csv, .txt, .png) and policies (.pth) are automatically saved to dynamically generated `logs/` and `policies/` folders.*
