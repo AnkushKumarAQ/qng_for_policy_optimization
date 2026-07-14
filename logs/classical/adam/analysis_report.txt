@@ -1,8 +1,14 @@
-=== ADAM BASELINE ANALYSIS REPORT ===
+=== ANALYSIS REPORT ===
 
 1. HYPERPARAMETER TUNING
 Best Learning Rate Selected: 0.01
+Best Damping Selected: nan
 
 2. FINAL TRAINING RESULTS
 Overall Success Rate: 95.0% (19/20 seeds)
-Mean Steps to Solve (for successful seeds): 19747.2
+
+--- Metrics for Successful Seeds ---
+Mean Steps to Solve: 19747.2
+Mean Episodes to Solve: 240.5
+Mean Time to Solve (s): 15.78
+Mean Gradient Norm: 62.8225

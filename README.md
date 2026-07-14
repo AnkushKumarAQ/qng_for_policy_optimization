@@ -4,19 +4,22 @@ Reinforcement learning ablation study training a Classical Policy Network (MLP) 
 
 ## Prerequisites
 * **Python:** 3.13.14
-* **Dependencies:** `torch`, `gymnasium`, `pandas`, `numpy`
+* **Dependencies:** `torch`, `gymnasium`, `pandas`, `numpy`, `matplotlib`, `seaborn`
 
 ## Usage
-The `train.py` script automatically runs the full pipeline: hyperparameter tuning, automagical best-LR selection, final 20-seed training, and report generation.
+The `train_classical.py` script automatically runs the full pipeline: hyperparameter tuning, selection of hyperparameters, final 20-seed training, and report generation.
 
 Run the script by specifying your target optimizer using the `--opt` flag:
 
 ```bash
-# Train with Adam
-python train.py --opt adam
+# Train classical model with SGD
+python train_classical.py --opt sgd
 
-# Train with SGD
-python train.py --opt sgd
+# Train classical model with Adam
+python train_classical.py --opt adam
+
+# Train classical model with FIM
+python train_classical.py --opt fim
 ```
 
-*Note: Logs (.csv, .txt) and trained policies (.pth) are automatically saved to dynamically generated `logs/` and `trained_policies/` folders.*
+*Note: Logs (.csv, .txt, .png) and trained policies (.pth) are automatically saved to dynamically generated `logs/` and `trained_policies/` folders.*

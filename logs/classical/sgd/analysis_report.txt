@@ -2,7 +2,13 @@
 
 1. HYPERPARAMETER TUNING
 Best Learning Rate Selected: 0.005
+Best Damping Selected: nan
 
 2. FINAL TRAINING RESULTS
 Overall Success Rate: 70.0% (14/20 seeds)
-Mean Steps to Solve (for successful seeds): 19727.5
+
+--- Metrics for Successful Seeds ---
+Mean Steps to Solve: 19727.5
+Mean Episodes to Solve: 298.6
+Mean Time to Solve (s): 13.25
+Mean Gradient Norm: 61.2253
