@@ -21,7 +21,7 @@ args = parser.parse_args()
 
 # --- PATH SETUP ---
 LOGS_DIR = f"logs/classical/{args.opt}/"
-POLICY_DIR = f"trained_policies/classical/{args.opt}/"
+POLICY_DIR = f"policies/classical/{args.opt}/"
 os.makedirs(POLICY_DIR, exist_ok=True)
 
 tuning_logs_path = os.path.join(LOGS_DIR, "tuning_logs.csv")
