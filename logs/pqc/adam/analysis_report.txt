@@ -1,0 +1,16 @@
+=== ANALYSIS REPORT ===
+
+1. HYPERPARAMETER TUNING
+Best Learning Rate Selected: 1.0
+
+2. TRAINING RESULTS
+Overall Success Rate: 70.0% (14/20 seeds)
+
+--- Metrics for Successful Seeds ---
+Mean Steps to Solve: 7613.4
+Mean Episodes to Solve: 259.3
+Mean Time to Solve (s): 577.22
+Mean Gradient Norm: 9.3949
+
+--- EXECUTION TIME ---
+Total Execution Time: 5813.57 seconds

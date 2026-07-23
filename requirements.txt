@@ -1,0 +1,9 @@
+tqdm==4.68.4
+pandas==3.0.3
+numpy==2.5.1
+matplotlib==3.11.0
+seaborn==0.13.2
+pennylane==0.45.1
+torch==2.13.0
+gymnasium==1.3.0
+pygame==2.6.1
